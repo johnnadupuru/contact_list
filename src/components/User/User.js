@@ -17,8 +17,8 @@ const User = () => {
     }
 
   return (
-    <div className='p-5 flex justify-center'>
-        <div className='w-[60%] shadow-2xl p-5'>
+    <div className='p-1 lg:p-5 flex justify-center'>
+        <div className='w-full lg:w-[60%] shadow-2xl p-5'>
             <h1 className='text-center text-2xl text-blue-600 font-bold'>Users List</h1>
             <div className='w-full p-2'>
                 <form onSubmit={handleSubmit((data,e)=>onSubmit(data,e))}>

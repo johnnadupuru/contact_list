@@ -1,5 +1,5 @@
 const initialContacts={
-    contacts:[{id:1,name:"Janardhana",number:"8500490186"},{id:2,name:"Jana",number:"8500490"}]
+    contacts:[{id:1,name:"Janardhana",number:"8500490186"},]
 };
 
 export const contactsReducer=(state=initialContacts,action)=>{

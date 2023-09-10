@@ -20,8 +20,8 @@ const Contact = () => {
     }
 
   return (
-    <div className='px-10 py-5 flex justify-center '>
-        <div className='w-[60%] shadow-2xl p-5'>
+    <div className='px-1 lg:px-10 py-5 flex justify-center '>
+        <div className='w-full lg:w-[60%] shadow-2xl p-0 lg:p-5'>
             <h1 className='font-bold text-blue-600 text-2xl text-center'>Contacts List</h1>
             <div className='flex justify-between w-full'>
                 <p className='text-xl'>All Contacts</p>
